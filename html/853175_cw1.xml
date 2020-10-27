@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns:rsm="853175_cw1.xsd">
+	<description>
+		Important information about Francesca Andreozzi resume
+	</description>
+	<topnav>
+		<navItem>
+			<name>
+				Home
+			</name>
+			<link>
+				853175_cw1.html
+			</link>
+		</navItem>
+		<navItem>
+			<name>
+				Gallery
+			</name>
+			<link>
+				#gallery
+			</link>
+		</navItem>
+	</topnav>
+	<profile>
+		<candidate name="Francesca Andreozzi" place="Born in Naples" dateOfBirth="22/06/1989" />
+	</profile>
+	<educationTable>
+		<institute id="I01">
+			<name>
+				Istituto Stella Maris, Italy
+			</name>
+			<contact>
+				Suor Rosalia
+			</contact>
+			<certification>
+				Certificate of Secondary School
+			</certification>
+		</institute>
+		<institute id="I02">
+			<name>
+				Univeristy Roma Tre
+			</name>
+			<contact>
+				Stefano Chiodi
+			</contact>
+			<certification>
+				Bachelor Degree in Humanities
+			</certification>
+		</institute>
+		<institute id="I03">
+			<name>
+				Aberystwyth University
+			</name>
+			<contact>
+				Andrew Filmer
+			</contact>
+			<certification>
+				MA in Politics Media and Performance
+			</certification>
+		</institute>
+		<institute id="I04">
+			<name>
+				Swansea University
+			</name>
+			<contact>
+				Liam O'Reilly
+			</contact>
+			<certification>
+				Currently studying - Degree in Software Engineering
+			</certification>
+		</institute>
+	</educationTable>
+	<timeline>
+		<time id="T01">
+			<date>
+				2019 to Date
+			</date>
+			<description>
+				GoCompare - Software Engineer Apprentice - Training to be the best software developer in the whole wide web. I am currently learning how to use Mvc and Entity Framework to build tools for GoCompare. We use
+				C#, Javascript, Html, CSS and many other magic tools
+			</description>
+		</time>
+		<time id="T02">
+			<date>
+				2019 to Date
+			</date>
+			<description>
+				GoCompare - Software Engineer Apprentice - Training to be the best software developer in the whole wide web. I am currently learning how to use Mvc and Entity Framework to build tools for GoCompare. We use
+				C#, Javascript, Html, CSS and many other magic tools
+			</description>
+		</time>
+		<time id="T03">
+			<date>
+				2018 - 2019
+			</date>
+			<description>
+				Legal and General - Junior Web Analyst - Analysing Data to help the business grow and predict Customers' needs and wants. I spent almost one year with a brand new Analytics team, using Adobe Analytics and Warehouse
+				technologies.
+			</description>
+		</time>
+		<time id="T04">
+			<date>
+				2017 - 2018
+			</date>
+			<description>
+				Legal and General - Sales Consultant - Helping the right insurance policy find a warm and loving home to the right customers
+			</description>
+		</time>
+		<time id="T05">
+			<date>
+				2015 - 2018
+			</date>
+			<description>
+				Agnelli's Deli - Restaurant Supervisor - Making sure all the delicious food is presented in all its beauty to the customers. Storing of food, handling and counting money daily and resercing great new recipes to
+				change the week's specials
+			</description>
+		</time>
+		<time id="T06">
+			<date>
+				2014 - 2015
+			</date>
+			<description>
+				Soho's Secret Tea Room - Floor Supervisor - Making sure all customers get a special treatment and taste the best teas in town. Storing teas and food on high quality standards. Researching new teas to buy and offer
+				to customers
+			</description>
+		</time>
+		<time id="T07">
+			<date>
+				2012 - 2014
+			</date>
+			<description>
+				Nettuno Administration- English Speaking Interpreter - Making sure that the foreign English speaking administration that visit the town understand what is going on and assure great communication to avoid international
+				crisis
+			</description>
+		</time>
+		<time id="T08">
+			<date>
+				2011 - 2012
+			</date>
+			<description>
+				National Institute of Statistics - Census Analyst - Making sure that data about the local population is collected and stored properly. Reach out to isolated members of the community to register their responses
+			</description>
+		</time>
+	</timeline>
+</collection>

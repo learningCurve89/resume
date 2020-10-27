@@ -1,0 +1,71 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:r="853175_cw1.xml" targetNamespace="853175_cw1.xml" elementFormDefault="qualified">
+	<element name="resume">
+		<complexType>
+			<sequence>
+				<element type="string" name="description" />
+				<element name="topnav">
+					<complexType>
+						<sequence>
+							<element name="navItem" maxOccurs="unbounded" minOccurs="0">
+								<complexType>
+									<sequence>
+										<element type="string" name="name" />
+										<element type="string" name="link" />
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="profile">
+					<complexType>
+						<sequence>
+							<element name="candidate">
+								<complexType>
+									<simpleContent>
+										<extension base="string">
+											<attribute type="string" name="name" />
+											<attribute type="string" name="place" />
+											<attribute type="string" name="dateOfBirth" />
+										</extension>
+									</simpleContent>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="educationTable">
+					<complexType>
+						<sequence>
+							<element name="institute" maxOccurs="unbounded" minOccurs="0">
+								<complexType>
+									<sequence>
+										<element type="string" name="name" />
+										<element type="string" name="contact" />
+										<element type="string" name="certification" />
+									</sequence>
+									<attribute type="string" name="id" use="optional" />
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="timeline">
+					<complexType>
+						<sequence>
+							<element name="time" maxOccurs="unbounded" minOccurs="0">
+								<complexType>
+									<sequence>
+										<element type="string" name="date" />
+										<element type="string" name="description" />
+									</sequence>
+									<attribute type="string" name="id" use="optional" />
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>
